@@ -17,7 +17,7 @@ const blogPostSchema = mongoose.Schema({
         default: Date.now
     }
 }, {
-    collection: blogPosts
+    collection: "cat"
 });
 
 
